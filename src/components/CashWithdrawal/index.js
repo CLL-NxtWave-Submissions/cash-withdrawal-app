@@ -8,9 +8,14 @@ export default class CashWithdrawal extends Component {
   }
 
   withdrawDenominationAndUpdateBalance = withdrawalDenominationAmount => {
-    this.setState(previousBalanceState => ({
-      balance: previousBalanceState.balance - withdrawalDenominationAmount,
-    }))
+    this.setState(previousBalanceState => {
+      const {balance} = previousBalanceState
+      const updatedBalance = balance - withdrawalDenominationAmount
+
+      return {
+        balance: updatedBalance,
+      }
+    })
   }
 
   render() {
