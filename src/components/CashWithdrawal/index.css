@@ -1,1 +1,84 @@
-/* Write your CSS here */
+.cash-withdrawal-bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-height: 100%;
+  padding: 1.5rem;
+}
+
+.cash-withdrawal-content-container {
+  border-radius: 0.6rem;
+  background-color: #150b3e;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-details-container {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.user-initial {
+  background-color: #c7d2fe;
+  border-radius: 49%;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-right: 1rem;
+}
+
+.user-name {
+  color: #d4d2db;
+  font-size: 1rem;
+}
+
+.balance-details-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.balance-label {
+  color: #7c3aed;
+  font-size: 1rem;
+}
+
+.balance-value-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.balance-value {
+  color: #d4d2db;
+  font-size: 1.5rem;
+}
+
+.currency-text {
+  color: #7c3aed;
+  font-size: 0.8rem;
+}
+
+.withdraw-content-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.withdraw-content-header {
+  color: #d4d2db;
+  font-size: 1.5rem;
+}
+
+.withdraw-content-description {
+  color: #382f5a;
+  font-size: 1rem;
+}
+
+.withdraw-denominations-container {
+  display: flex;
+  justify-content: space-around;
+}
