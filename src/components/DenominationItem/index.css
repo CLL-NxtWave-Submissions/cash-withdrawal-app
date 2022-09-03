@@ -4,4 +4,7 @@
   border: 0.1rem solid #c4c4c4;
   border-radius: 0.4rem;
   font-size: 2rem;
+  cursor: pointer;
+  outline: none;
+  padding: 0.25rem 1.25rem;
 }
