@@ -94,4 +94,6 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   width: 100%;
+  list-style: none;
+  padding-left: 0;
 }

@@ -42,7 +42,7 @@ export default class CashWithdrawal extends Component {
               CHOOSE SUM (IN RUPEES)
             </p>
           </div>
-          <div className="withdraw-denominations-container">
+          <ul className="withdraw-denominations-container">
             {denominationsList.map(denominationItem => (
               <DenominationItem
                 key={denominationItem.id}
@@ -52,7 +52,7 @@ export default class CashWithdrawal extends Component {
                 }
               />
             ))}
-          </div>
+          </ul>
         </div>
       </div>
     )

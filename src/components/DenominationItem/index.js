@@ -7,13 +7,18 @@ const DenominationItem = props => {
     cashWithdrawalEventHandler(denominationValue)
 
   return (
-    <button
-      type="button"
-      className="denomination-item-button"
+    <li
+      className="denomination-item"
       onClick={onClickWithdrawDenominationHandler}
     >
-      {denominationValue}
-    </button>
+      <button
+        type="button"
+        className="denomination-item-button"
+        onClick={onClickWithdrawDenominationHandler}
+      >
+        {denominationValue}
+      </button>
+    </li>
   )
 }
 
