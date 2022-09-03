@@ -1,1 +1,7 @@
-/* Write your CSS here */
+.denomination-item-button {
+  background-color: #585076;
+  color: #d4d2db;
+  border: 0.1rem solid #c4c4c4;
+  border-radius: 0.4rem;
+  font-size: 2rem;
+}
