@@ -21,7 +21,7 @@ export default class CashWithdrawal extends Component {
       <div className="cash-withdrawal-bg-container">
         <div className="cash-withdrawal-content-container">
           <div className="user-details-container">
-            <p className="user-initial">S</p>
+            <div className="user-initial">S</div>
             <p className="user-name">Sarah Williams</p>
           </div>
           <div className="balance-details-container">
@@ -36,16 +36,17 @@ export default class CashWithdrawal extends Component {
             <p className="withdraw-content-description">
               CHOOSE SUM (IN RUPEES)
             </p>
-            <div className="withdraw-denominations-container">
-              {denominationsList.map(denominationItem => (
-                <DenominationItem
-                  denominationValue={denominationItem.value}
-                  cashWithdrawalEventHandler={
-                    this.withdrawDenominationAndUpdateBalance
-                  }
-                />
-              ))}
-            </div>
+          </div>
+          <div className="withdraw-denominations-container">
+            {denominationsList.map(denominationItem => (
+              <DenominationItem
+                key={denominationItem.id}
+                denominationValue={denominationItem.value}
+                cashWithdrawalEventHandler={
+                  this.withdrawDenominationAndUpdateBalance
+                }
+              />
+            ))}
           </div>
         </div>
       </div>

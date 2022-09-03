@@ -1,5 +1,5 @@
 .denomination-item-button {
-  background-color: #585076;
+  background-color: #382f5a;
   color: #d4d2db;
   border: 0.1rem solid #c4c4c4;
   border-radius: 0.4rem;
@@ -7,5 +7,8 @@
   cursor: pointer;
   outline: none;
   padding: 0.25rem 1.25rem;
-  width: 40%;
+  width: 45%;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  flex-grow: 1;
 }

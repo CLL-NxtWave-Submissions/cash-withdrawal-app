@@ -8,59 +8,67 @@
 }
 
 .cash-withdrawal-content-container {
-  border-radius: 0.6rem;
+  border-radius: 1rem;
   background-color: #150b3e;
-  padding: 1.5rem;
+  padding: 2.5rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .user-details-container {
   display: flex;
-  margin-bottom: 1rem;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1.5rem;
 }
 
 .user-initial {
   background-color: #c7d2fe;
   border-radius: 49%;
-  font-size: 0.8rem;
+  font-size: 1rem;
   text-align: center;
   margin-right: 1rem;
+  padding-top: 1.3rem;
+  width: 4rem;
+  height: 4rem;
+  color: #585076;
 }
 
 .user-name {
   color: #d4d2db;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .balance-details-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
 }
 
 .balance-label {
-  color: #7c3aed;
-  font-size: 1rem;
+  color: #585076;
+  font-size: 1.2rem;
+  margin: 0;
 }
 
 .balance-value-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
+  justify-content: flex-start;
+  margin-bottom: 0;
 }
 
 .balance-value {
   color: #d4d2db;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  margin: 0;
 }
 
 .currency-text {
-  color: #7c3aed;
-  font-size: 0.8rem;
+  color: #585076;
+  font-size: 0.9rem;
 }
 
 .withdraw-content-container {
@@ -71,14 +79,18 @@
 .withdraw-content-header {
   color: #d4d2db;
   font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
 }
 
 .withdraw-content-description {
-  color: #382f5a;
+  color: #585076;
   font-size: 1rem;
 }
 
 .withdraw-denominations-container {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
 }
